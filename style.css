@@ -1,0 +1,38 @@
+body{
+    background-color: #1d2235;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+.tx-primary{
+    color: #d24b5c;
+    font-weight: bold;
+}
+
+.icon-custom{
+    border: 2px solid #d24b5c;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+
+.img-custom{
+    width: 600px;
+}
+
+.img-decoration{
+    position: relative;
+}
+
+.img-decoration::before{
+    position: absolute;
+    content: '';
+    background-color: #283156;
+    width: 400px;
+    height: 400px;
+    top: 5%;
+    left: 15%;
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(30px);
+}
